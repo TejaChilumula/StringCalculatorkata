@@ -16,4 +16,9 @@ class StringcalculatorTest {
 	public void TwoNumTest() {
 		assertEquals(3,StringCal.Add("1,2"));
 	}
+	@Test
+	public void threeNumTest() {
+		assertEquals(6,StringCal.Add("1\n2,3"));
+	}
+	
 }
