@@ -8,4 +8,8 @@ class StringcalculatorTest {
 	public void Emptytest() {
 		assertEquals(0,StringCal.Add(""));
 	}
+	@Test
+	public void OneNumTest() {
+		assertEquals(1,StringCal.Add("1"));
+	}
 }
