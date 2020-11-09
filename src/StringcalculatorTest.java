@@ -39,5 +39,10 @@ class StringcalculatorTest {
 	@Test
 	public void GreaterNumTest() throws Exception {
 		assertEquals(9,StringCal.greater("1000,2,3,4"));
-	}	
+	}
+	@Test
+	public void Delimiter() throws Exception{
+		assertEquals(5,StringCal.Add("//;\n3;2"));
+	}
+
 }
