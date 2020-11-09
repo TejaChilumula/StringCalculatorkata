@@ -36,5 +36,8 @@ class StringcalculatorTest {
 			assertEquals(e.getMessage(),"Negative not allowed: -1");
 		}
 	}
-		
+	@Test
+	public void GreaterNumTest() throws Exception {
+		assertEquals(9,StringCal.greater("1000,2,3,4"));
+	}	
 }
